@@ -10,9 +10,9 @@ const Detail = () => {
         src="https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg"
         alt=""
       />
-      <h2 vlaue={sign.name}>{sign.name}</h2>
-      <h4 value={sign.element}>Element: {sign.element}</h4>
-      <h4 value={sign.traits}>Traits: {sign.traits}</h4>
+      <h2>{sign.name}</h2>
+      <h4>Element: {sign.element}</h4>
+      <h4>Traits: {sign.traits}</h4>
     </div>
   );
 };
